@@ -1,0 +1,58 @@
+<html>
+    <head>
+    	<title>
+    		REGISTRATION FORM
+    	</title>
+    	<style>
+    		body{background-color: gray;font-size: 30px;font-family: Papyrus, fantasy;color: yellow;}
+    		.submit{background-color: green}
+    		.reset{background-color: red}
+    	</style>
+    </head>
+    <body>
+    	<h1 align="center" style="color: pink;font-size: 50px;font-family: Lucida Handwriting,cursive;">Student Registration Form</h1>
+    	<form align="center">
+        First Name:	<input type="text" name="username" value="type here" maxlength="20"><br><br>
+       Last Name: <input type="text" name="username" value="type here" maxlength="10"><br><br>
+       Email: <input type="text" name="Email" value="type here" maxlength="50"><br><br>
+       <label for="Start"> Birth Date </label>
+       <input type="Date" id="Start" min="2000-01-01" max="2022-04-29"><br><br>
+       Gender : 
+              <select name="dropdown">
+              <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+                <option value="Others">Others</option>
+              </select><br><br>
+       Education :
+               <select name="dropdown">
+              <option value="Schooling">Schooling</option>
+                <option value="Inter">Inter</option>
+                <option value="Degree/Btech">Degree/Btech</option>
+                <option value="Others">Graduate</option>
+              </select><br><br>
+        Are you interesting in taking these courses : <br>
+               <input type="radio" name="yes">Yes<br>
+               <input type="radio" name="no">No<br>
+        Select the courses your interested : <br>
+                <input type="checkbox" name="yes" value="on">C<br>
+               <input type="checkbox" name="no" value="on">C++<br>
+                <input type="checkbox" name="yes" value="on">Java<br>
+               <input type="checkbox" name="no" value="on">Python<br>
+               <input type="checkbox" name="no" value="on">Html<br>
+        Address : <br>
+          <textarea rols="100" cols="50">
+              enter address here ...... 
+           </textarea><br><br>
+        Student Phone Number : <input type="text" name="Number"><br><br>
+        Parent Phone number :  <input type="text" name="Number"><br><br>
+        Any Queries : <br>
+            <textarea rols="100" cols="50">
+              ...... 
+           </textarea><br><br>
+           Contact Number : 9876543210<br><br>
+        Click submit button for further process : <br>
+        <pre><input class="submit" type="submit" name="submit" value="submit"> <input class="reset" type="reset" name="reset" value="reset"> </pre><br><br>
+        </form>
+    </body>
+</html>
